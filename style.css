@@ -1,0 +1,137 @@
+.header{
+  background-color:rgba(27, 24, 24, 0.2);
+  height: 45em;
+background-image: url('/images/donation1.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-blend-mode: darken;
+}
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.title{
+  padding-top:8em;
+}
+.help{
+  font-weight: 750;
+  color: white;
+  text-align: center;
+  font-size:60px;
+  
+}
+.text{
+  text-align: center;
+  font-weight: 500;
+  color: white;
+}
+.btn{
+  text-align: center;
+}
+.btn button{
+  background-color: #f9561a;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 50px 15px;
+  padding:15px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.D-Today{
+  margin-top: 3em;
+  font-weight: 750;
+  text-align: center;
+  font-size:60px;
+}
+.D-t-text{
+  text-align: center;
+  color: gray;
+}
+
+.flex{
+  display: flex;
+  margin-top: 60px;
+}
+
+.flex img{
+  padding-top: 4em;
+  padding-left: 2em;
+}
+.flex p{
+  color: gray;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.child1{
+  background-color: #85d6dd31;
+  margin: 0 10px;
+  padding-left: 2em;
+  padding-bottom: 4em;
+  border-radius: 5px;
+}
+.child2{
+  background-color: #fd92b839;
+  margin: 0 10px;
+  padding-left: 2em;
+  padding-bottom: 4em;
+  border-radius: 5px;
+}
+.child3{
+  background-color: #fdfd1f31;
+  margin: 0 20px;
+  padding-left: 2em;
+  padding-bottom: 4em;
+  border-radius: 5px;
+}
+
+.flex2{
+  display: flex;
+  margin-top: 8em;
+}
+.img-d img{
+  width: 34em;
+  height: 35em;
+  padding-right: 6em;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.live-text{
+  text-align: left;
+  padding-right:4em ;
+}
+.live-text p{
+  
+  color: gray;
+  line-height: 1.5;
+  font-weight: 510;
+
+}
+.li-tx{
+  font-weight: 750;
+  font-size:60px;
+}
+.bt-tn{
+  margin-top: 3em;
+}
+.bt-tn button{
+  background-color: #ff6a34;
+  color: white;
+  font-weight: 400;
+  padding: 15px 20px;
+  font-size: 20px;
+  border: 0;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
