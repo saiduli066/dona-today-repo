@@ -1,7 +1,7 @@
 .header{
   background-color:rgba(27, 24, 24, 0.2);
   height: 45em;
-background-image: url('/images/donation1.jpg');
+background-image: url('./images/donation1.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 background-blend-mode: darken;
