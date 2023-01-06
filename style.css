@@ -54,6 +54,47 @@ background-blend-mode: darken;
   color: gray;
 }
 
+
+.flex1 {
+  display: flex;
+  margin-left: 33%;
+  margin-top: 3em;
+  margin-bottom: 5em;
+}
+.tk {
+  background-color: #e4dddd34;
+  padding: 30px 20px;
+  margin-right: 14px;
+  
+  font-weight: 750;
+  color: #747474;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.tk:hover{
+  background-color: #ff86453e;
+  padding: 30px 20px;
+  margin-right: 13px;
+  font-weight: 750;
+  color: orangered;
+  text-align: center;
+  border-radius: 5px;
+  border: solid 2px orangered;
+}
+.other{
+  text-align: center;
+}
+.other h5{
+  color: #9f9696;
+}
+.other hr{
+  width: 55%;
+}
+
 .flex{
   display: flex;
   margin-top: 60px;
