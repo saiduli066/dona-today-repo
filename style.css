@@ -166,6 +166,7 @@ background-blend-mode: darken;
   .header{
     background-size:cover;
     height: 15em;
+    width: 100%;
   }
   .title{
     padding-top:0.5em;
@@ -187,17 +188,23 @@ background-blend-mode: darken;
     font-size: 22px;
     margin-top: 1em;
   }
+  .flex1{
+    width: 100%;
+  }
   .tk {
     padding: 10px 15px;
-    margin-right: 10px;
+    margin-right: 5px;
+    width: 80%;
     }
     .tk:hover{
       padding: 10px 15px;
-      margin-right: 10px;
+      margin-right: 5px;
+      width: 80%;
     }
     .flex{
       margin-top:0;
       flex-direction: column;
+      width: 100%;
     }
     .flex img{
       padding-top: 1em;
@@ -216,10 +223,10 @@ background-blend-mode: darken;
   .flex2{
     margin-top: 2em;
     flex-direction: column-reverse;
-
+    width: 100%;
   }
   .img-d img{
-    width: 100% ;
+    width: 98% ;
     height:30%; 
   }
     .live-text{
