@@ -37,10 +37,6 @@ background-blend-mode: darken;
   border-radius: 5px;
   margin: 50px 15px;
   padding:15px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
 }
 
 .D-Today{
@@ -57,27 +53,20 @@ background-blend-mode: darken;
 
 .flex1 {
   display: flex;
-  margin-left: 33%;
-  margin-top: 3em;
-  margin-bottom: 5em;
+  justify-content: center;
 }
 .tk {
   background-color: #e4dddd34;
-  padding: 30px 20px;
+  padding: 25px 20px;
   margin-right: 14px;
-  
   font-weight: 750;
   color: #747474;
   text-align: center;
   border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
 }
 .tk:hover{
   background-color: #ff86453e;
-  padding: 30px 20px;
+  padding: 25px 20px;
   margin-right: 13px;
   font-weight: 750;
   color: orangered;
@@ -171,8 +160,84 @@ background-blend-mode: darken;
   font-size: 20px;
   border: 0;
   border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
+}
+
+@media screen and (max-width:576px) {
+  .header{
+    background-size:cover;
+    height: 15em;
+  }
+  .title{
+    padding-top:0.5em;
+  }
+  .help{
+    font-size:20px;
+  }
+  .D-t-text,.text{
+    font-size: 15px;
+  }
+  .btn{
+    margin-top: -3.5em;
+  }
+  .btn button{
+    padding: 10px 12px;
+    font-size: 12px;
+  }
+  .D-Today{
+    font-size: 22px;
+    margin-top: 1em;
+  }
+  .tk {
+    padding: 10px 15px;
+    margin-right: 10px;
+    }
+    .tk:hover{
+      padding: 10px 15px;
+      margin-right: 10px;
+    }
+    .flex{
+      margin-top:0;
+      flex-direction: column;
+    }
+    .flex img{
+      padding-top: 1em;
+    }
+    .flex p{
+
+      line-height: 1.5;
+      font-weight: 500;
+    }
+    .child1,.child2,.child3{
+      margin:  5px;
+      padding-left: 1em;
+      padding-bottom: 1em;
+      border-radius: 5px;
+    }
+  .flex2{
+    margin-top: 2em;
+    flex-direction: column-reverse;
+
+  }
+  .img-d img{
+    width: 100% ;
+    height:30%; 
+  }
+    .live-text{
+          padding-right: 0;
+    }
+    .li-tx{
+      font-weight: 750;
+      font-size:30px;
+    }
+    .btn-dnt{
+      margin-top: 0.5em;
+    }
+    .bt-tn{
+      margin-top: 1em;
+      text-align: center;
+    }
+    .bt-tn button{
+      padding: 10px 12px;
+      font-size: 12px;
+    }
 }
